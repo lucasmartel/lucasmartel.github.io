@@ -49,6 +49,11 @@ body{
   font-size: 40px;
 }
 
-.navbar{
+.nav-bar{
+  color: #191919;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav navbar-nav{
   color: black;
 }
