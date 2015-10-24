@@ -1,0 +1,54 @@
+body{
+  background: -webkit-linear-gradient(black, white);
+}
+
+
+.nav-bar{
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 200;
+}
+
+.nav-bar a {
+  text-decoration:none;
+  font-size: 20px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.paragraph{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  border: 8px solid white;
+  background-color: white;
+  radius: 20px;
+}
+
+.picture{
+  border: 8px solid white;
+  background-color: white;
+  height: 75%;
+}
+
+.col_1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.things{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+
+.navbar{
+  color: black;
+}
