@@ -2,12 +2,12 @@ body{
   background: -webkit-linear-gradient(#A2A2A2, black);
 }
 
-
 .nav-bar{
   height: 200px;
   text-align: center;
   padding-top: 20px;
   font-weight: 200;
+  padding-bottom: 270px;
 }
 
 .nav-bar a {
@@ -28,6 +28,7 @@ body{
   color: black;
   font-family: 'Roboto', sans-serif;
   border: 8px solid white;
+  border-radius: 5px;
   background-color: white;
   radius: 20px;
 }
@@ -35,6 +36,7 @@ body{
 .picture{
   border: 8px solid white;
   background-color: white;
+  border-radius: 5px;
   height: 75%;
 }
 
