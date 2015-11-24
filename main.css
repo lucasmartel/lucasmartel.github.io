@@ -1,14 +1,32 @@
 body{
-  background: -webkit-linear-gradient(#A2A2A2, black);
+  background: -webkit-linear-gradient(#bfbfbf, #A2A2A2);
 }
 
+.header {
+    position:fixed;
+    z-index:2;
+  }
+
+.content {
+    position: relative;
+    z-index:1;
+    padding-top: 350px;
+  }
+
+.main-nav-scrolled,
 .nav-bar{
   height: 200px;
   text-align: center;
-  padding-top: 20px;
   font-weight: 200;
   padding-bottom: 270px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 2px 3px rbga(0,0,0 .4);
 }
+
+
 
 .nav-bar a {
   text-decoration:none;
@@ -28,16 +46,15 @@ body{
   color: black;
   font-family: 'Roboto', sans-serif;
   border: 8px solid white;
-  border-radius: 5px;
   background-color: white;
-  radius: 20px;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .picture{
   border: 8px solid white;
   background-color: white;
-  border-radius: 5px;
   height: 75%;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .col_1{
@@ -58,4 +75,16 @@ body{
 
 .nav navbar-nav{
   color: black;
+  text-align: center;
+}
+
+.customHr {
+    width: 95%
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1px;
+
+    background-color: grey;
+    margin-top: -6px;
+    margin-bottom: 10px;
 }
