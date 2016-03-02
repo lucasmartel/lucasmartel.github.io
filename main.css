@@ -3,26 +3,21 @@ body{
 }
 
 .header {
-    position:fixed;
     z-index:2;
   }
 
 .content {
     position: relative;
-    z-index:1;
-    padding-top: 350px;
+    z-index:-9999;
   }
 
-.main-nav-scrolled,
 .nav-bar{
   height: 200px;
   text-align: center;
   font-weight: 200;
   padding-bottom: 270px;
-  position: fixed;
   top: 0;
   width: 100%;
-  position: fixed;
   box-shadow: 0 2px 3px rbga(0,0,0 .4);
 }
 
@@ -87,4 +82,17 @@ body{
     background-color: grey;
     margin-top: -6px;
     margin-bottom: 10px;
+}
+
+.fixed {
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+  background-color: white;
+}
+.desktop-nav{
+
 }
